@@ -128,6 +128,14 @@ Soluciones ES5
 - enumerable : false cuando agreges metodos nuevos , de esa manera no seran enlistados 
 - Object.keys(object) , enlista su propias llaves de sus propiedades ( no las heredadas )
 
+(Las Keys tienen que ser strings)
 
+Extensible bit (ES5)
+
+- extensible : boolean;
+- Object.isExtensible(object); -> Para saber si el bit esta on/off
+- Object.preventExtensions(object); -> pone el bit en off y no se puede agregar propiedades (no se puede revertir)
+- Object.seal(object); -> lo mismo que lo anterios + configurables 
+- Object.freeze(object); -> objecto solo lectura (objecto inmutable)  
 
 
